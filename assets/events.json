@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Herringbone",
+    "genre": "Folk",
+    "stage": "Eric Stein",
+    "schedule": {
+      "month": "June",
+      "day": 15,
+      "start": "9:30",
+      "end": "10:00"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "rating": 4,
+    "image": {
+      "small": "assets/images/sony-xperia-z3.jpg",
+      "large": "assets/images/sony-xperia-z3-large.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Herringbone",
+    "genre": "Folk",
+    "stage": "West",
+    "schedule": {
+      "month": "June",
+      "day": 15,
+      "start": "9:45",
+      "end": "10:15"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "rating": 4,
+    "image": {
+      "small": "assets/images/sony-xperia-z3.jpg",
+      "large": "assets/images/sony-xperia-z3-large.jpg"
+    }
+  },
+  
+]
