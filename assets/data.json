@@ -6,6 +6,8 @@
 			"stage": "Eric Stein",
 			"description": "Brief description of musical act.",
 			"schedule": {
+				"day": "Thursday",
+				"month": "June",
 				"date": 19,
 				"start": "9:30am",
 				"end": "10:15am"
@@ -17,6 +19,21 @@
 			"stage": "The Other Eric Stein",
 			"description": "Another brief description of musical act.",
 			"schedule": {
+				"day": "Thursday",
+				"month": "June",
+				"date": 19,
+				"start": "10:30am",
+				"end": "11:00am"
+			}
+		},
+		{
+			"id": 3,
+			"name": "Less Herringbone",
+			"stage": "The Other Eric Stein",
+			"description": "Another brief description of musical act.",
+			"schedule": {
+				"day": "Sunday",
+				"month": "June",
 				"date": 19,
 				"start": "10:30am",
 				"end": "11:00am"
