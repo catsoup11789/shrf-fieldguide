@@ -4,13 +4,44 @@
 			"id": 1,
 			"name": "Herringbone",
 			"stage": "Eric Stein",
-			"description": "Brief description of musical act."
+			"description": "Brief description of musical act.",
+			"schedule": {
+				"date": 19,
+				"start": "9:30am",
+				"end": "10:15am"
+			}
 		},
 		{
 			"id": 2,
 			"name": "More Herringbone",
 			"stage": "The Other Eric Stein",
-			"description": "Another brief description of musical act."
+			"description": "Another brief description of musical act.",
+			"schedule": {
+				"date": 19,
+				"start": "10:30am",
+				"end": "11:00am"
+			}
+		}
+	],
+	
+	"announcements": [
+		{
+			"id": 1,
+			"name": "Gift certificates available",
+			"description": "River Festival gift certificates make the perfect Christmas present for River Festival lovers of all ages! Available in $20 increments, certificates can be used at the Festival to purchase works from any of the art areas. Certificates can be purchased at the Salina Arts & Humanities office, 211 W. Iron Ave, M-F 8-12, 1-5pm."
+		}
+	],
+	
+	"faq": [
+		{
+			"id": 1,
+			"question": "First Aid",
+			"answer": "First Aid and EMS services are available at the permanent restroom next to the tennis courts."
+		},
+		{
+			"id": 2,
+			"question": "Lost & Found",
+			"answer": "Visit the Festival's Lost & Found booth near the Fourth Street Bridge to scope out misplaced items. Lost children also are escorted here to be reunited with parents. Lost & Found is located south of Festival Headquarters"
 		}
 	]
 }
