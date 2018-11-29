@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# v1.0 : 11-21-2018
+
+CACHE:
+# pages
+index.html
+
+# styles & scripts
+assets/css/style.css
+assets/script.js
+assets/sw.js
+
+# images
+assets/images/icons-192.png
+assets/images/icons-512.png
+
+FALLBACK:
+/ /offline.html
