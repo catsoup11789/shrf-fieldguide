@@ -52,16 +52,8 @@
 	    <div class="page-content">
 		    <br><br><br>
 		    <h4>Announcements</h4>
-			<ul class="mdl-list">
-				<li class="mdl-list__item mdl-list__item--three-line">
-					<span class="mdl-list__item-primary-content">
-					<i class="material-icons mdl-list__item-avatar">priority_high</i>
-				      <span>We'll be back in 2019!</span>
-				      <span class="mdl-list__item-text-body">
-				        Discover the next Smoky Hill River Festival on June 13-16, 2019!
-				      </span>
-					</span>
-				</li>
+			<ul class="mdl-list" id="announcement-list">
+				
 			</ul>
 	    </div>
 	    </div>
@@ -105,8 +97,7 @@
 		    <br><br><br>
 		    <h4>Experience</h4>
 		    <div class="mdl-grid">
-
-	    </div>
+	    	</div>
 	    </div>
 	  	</div>
 	</section>
@@ -131,18 +122,22 @@
 	
 	<section id="faq" class="mdl-layout mdl-js-layout hideme">
 	  	<div class="mdl-layout__content">
-	    <div class="page-content">
+	    <div class="page-content" style="padding:1em">
 		    <br><br><br>
 		    <h4>FAQ</h4>
+		    <div id="faq-list">
+		    </div>
 	    </div>
 	  	</div>
 	</section>
 	
 	<section id="sponsors" class="mdl-layout mdl-js-layout hideme">
 	  	<div class="mdl-layout__content">
-	    <div class="page-content">
+	    <div class="page-content" style="padding:1em">
 		    <br><br><br>
 		    <h4>Sponsors</h4>
+		    <div id="sponsors-list">
+		    </div>
 	    </div>
 	  	</div>
 	</section>
@@ -180,13 +175,33 @@
 			<span class="mdl-list__item-primary-content">
 				<i class="material-icons mdl-list__item-avatar">event</i>
 				<span>{{name}}</span>
-				<span class="mdl-list__item-sub-title">{{stage}}</span>
+				<span class="mdl-list__item-sub-title">{{stage}}, {{schedule.start}}-{{schedule.end}}</span>
 			</span>
 			<span class="mdl-list__item-secondary-content">
 				<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">add_box</i></a>
 			</span>
 		</li>
 		{{/events}}
+	</script>
+	<script id="announcement-template" type="text/x-handlebars-template">
+		{{#announcements}}
+		<li class="mdl-list__item mdl-list__item--three-line">
+			<span class="mdl-list__item-primary-content">
+			<i class="material-icons mdl-list__item-avatar">priority_high</i>
+		      <span>{{name}}</span>
+		      <span class="mdl-list__item-text-body">
+		        {{description}}
+		      </span>
+			</span>
+		</li>
+		{{/announcements}}
+	</script>
+	<script id="faq-template" type="text/x-handlebars-template">
+		{{#faq}}
+		<h5>{{question}}</h5>
+	    <p>{{answer}}</p>
+	    <hr>
+	    {{/faq}}
 	</script>
 	<script src="assets/script.js"></script>
 </body>
