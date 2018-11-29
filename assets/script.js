@@ -1,7 +1,37 @@
 $(function() {
-    var raw_template = $('#events-template').html();
+    var raw_template = $('#events-thursday-template').html();
     var template = Handlebars.compile(raw_template);
-    var placeHolder = $("#events-list");
+    var placeHolder = $("#events-thursday-list");
+    $.get("assets/data.json", function(datas, status, xhr) {
+        var html = template(datas);
+        placeHolder.append(html);
+    });
+});
+
+$(function() {
+    var raw_template = $('#events-friday-template').html();
+    var template = Handlebars.compile(raw_template);
+    var placeHolder = $("#events-friday-list");
+    $.get("assets/data.json", function(datas, status, xhr) {
+        var html = template(datas);
+        placeHolder.append(html);
+    });
+});
+
+$(function() {
+    var raw_template = $('#events-saturday-template').html();
+    var template = Handlebars.compile(raw_template);
+    var placeHolder = $("#events-saturday-list");
+    $.get("assets/data.json", function(datas, status, xhr) {
+        var html = template(datas);
+        placeHolder.append(html);
+    });
+});
+
+$(function() {
+    var raw_template = $('#events-sunday-template').html();
+    var template = Handlebars.compile(raw_template);
+    var placeHolder = $("#events-sunday-list");
     $.get("assets/data.json", function(datas, status, xhr) {
         var html = template(datas);
         placeHolder.append(html);
@@ -26,4 +56,9 @@ $(function() {
         var html = template(datas);
         placeHolder.append(html);
     });
+});
+
+
+Handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
+    return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
 });
