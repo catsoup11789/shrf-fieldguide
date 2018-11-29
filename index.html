@@ -23,6 +23,10 @@
 		.page-content {
 			padding:1em
 		}
+		
+		.mdl-layout__content {
+			display: block;
+		}
 	</style>
 	
 </head>
@@ -31,7 +35,7 @@
 	
 <!-- Always shows a header, even in smaller screens. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header" id="anchor">
+  <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">Smoky Hill River Festival</span>
@@ -41,7 +45,7 @@
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Field Guide</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="#announcements">Announcements</a>
+      <a class="mdl-navigation__link sel" href="#announcements">Announcements</a>
       <a class="mdl-navigation__link" href="#events">Schedule</a>
       <a class="mdl-navigation__link" href="#map">Map</a>
       <a class="mdl-navigation__link" href="#camera">Camera</a>
@@ -49,7 +53,7 @@
       <a class="mdl-navigation__link" href="#sponsors">Sponsors</a>
     </nav>
   </div>
-	<section id="announcements" class="mdl-layout mdl-js-layout hideme">
+	<section id="announcements" class="mdl-layout mdl-js-layout">
 	  	<div class="mdl-layout__content">
 	    <div class="page-content">
 		    <br><br><br>
@@ -104,6 +108,7 @@
 	    <div class="page-content">
 		    <br><br><br>
 		    <h4>Map</h4>
+		    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=Oakdale%20Park%2C%20Salina%20KS&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{text-align:right;height:100%;width:100%; display: block}.gmap_canvas {display: block;background:none!important;height:100%;width:100%;}</style></div>
 	    </div>
 	  	</div>
 	</section>
@@ -133,7 +138,7 @@
 	    <div class="page-content">
 		    <br><br><br>
 		    <h4>Sponsors</h4>
-		    <div id="sponsors-list">
+		    <div id="sponsors-list" style="text-align:center">
 		    </div>
 	    </div>
 	  	</div>
@@ -258,6 +263,12 @@
 	    <hr>
 	    {{/faq}}
 	</script>
+	<script id="sponsors-template" type="text/x-handlebars-template">
+	{{#sponsors}}
+	<img src='{{image}}'>
+	{{/sponsors}}
+</script>
+
 	<script src="assets/script.js"></script>
 </body>
 </html>
