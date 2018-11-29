@@ -19,6 +19,10 @@
 		.hideme {
 			display: none;
 		}
+		
+		.page-content {
+			padding:1em
+		}
 	</style>
 	
 </head>
@@ -40,9 +44,7 @@
       <a class="mdl-navigation__link" href="#announcements">Announcements</a>
       <a class="mdl-navigation__link" href="#events">Schedule</a>
       <a class="mdl-navigation__link" href="#map">Map</a>
-      <a class="mdl-navigation__link" href="#experience">Festival Experience</a>
       <a class="mdl-navigation__link" href="#camera">Camera</a>
-      <a class="mdl-navigation__link" href="#itinerary">My Itinerary</a>
       <a class="mdl-navigation__link" href="#faq">FAQ</a>
       <a class="mdl-navigation__link" href="#sponsors">Sponsors</a>
     </nav>
@@ -73,7 +75,22 @@
 		    </div>
 		    
 		  <div class="mdl-tabs__panel is-active" id="thursday-panel">
-				<ul class="mdl-list" id="events-list">
+				<ul class="mdl-list" id="events-thursday-list">
+					
+			    </ul>
+		  </div>
+		  <div class="mdl-tabs__panel" id="friday-panel">
+				<ul class="mdl-list" id="events-friday-list">
+					
+			    </ul>
+		  </div>
+		  <div class="mdl-tabs__panel" id="saturday-panel">
+				<ul class="mdl-list" id="events-saturday-list">
+					
+			    </ul>
+		  </div>
+		  <div class="mdl-tabs__panel" id="sunday-panel">
+				<ul class="mdl-list" id="events-sunday-list">
 					
 			    </ul>
 		  </div>
@@ -91,17 +108,6 @@
 	  	</div>
 	</section>
 	
-	<section id="experience" class="mdl-layout mdl-js-layout hideme">
-	  	<div class="mdl-layout__content">
-	    <div class="page-content">
-		    <br><br><br>
-		    <h4>Experience</h4>
-		    <div class="mdl-grid">
-	    	</div>
-	    </div>
-	  	</div>
-	</section>
-	
 	<section id="camera" class="mdl-layout mdl-js-layout hideme">
 	  	<div class="mdl-layout__content">
 	    <div class="page-content">
@@ -111,18 +117,9 @@
 	  	</div>
 	</section>
 	
-	<section id="itinerary" class="mdl-layout mdl-js-layout hideme">
-	  	<div class="mdl-layout__content">
-	    <div class="page-content">
-		    <br><br><br>
-		    <h4>My Itinerary</h4>
-	    </div>
-	  	</div>
-	</section>
-	
 	<section id="faq" class="mdl-layout mdl-js-layout hideme">
 	  	<div class="mdl-layout__content">
-	    <div class="page-content" style="padding:1em">
+	    <div class="page-content">
 		    <br><br><br>
 		    <h4>FAQ</h4>
 		    <div id="faq-list">
@@ -133,7 +130,7 @@
 	
 	<section id="sponsors" class="mdl-layout mdl-js-layout hideme">
 	  	<div class="mdl-layout__content">
-	    <div class="page-content" style="padding:1em">
+	    <div class="page-content">
 		    <br><br><br>
 		    <h4>Sponsors</h4>
 		    <div id="sponsors-list">
@@ -169,8 +166,10 @@
 	});
 	</script>
 
-	<script id="events-template" type="text/x-handlebars-template">
+	<script id="events-thursday-template" type="text/x-handlebars-template">
+
 		{{#events}}
+		{{#ifEquals schedule.day "Thursday"}}
 		<li class="mdl-list__item mdl-list__item--two-line">
 			<span class="mdl-list__item-primary-content">
 				<i class="material-icons mdl-list__item-avatar">event</i>
@@ -181,7 +180,63 @@
 				<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">add_box</i></a>
 			</span>
 		</li>
+		{{/ifEquals}}
 		{{/events}}
+		
+	</script>
+	<script id="events-friday-template" type="text/x-handlebars-template">
+
+		{{#events}}
+		{{#ifEquals schedule.day "Friday"}}
+		<li class="mdl-list__item mdl-list__item--two-line">
+			<span class="mdl-list__item-primary-content">
+				<i class="material-icons mdl-list__item-avatar">event</i>
+				<span>{{name}}</span>
+				<span class="mdl-list__item-sub-title">{{stage}}, {{schedule.start}}-{{schedule.end}}</span>
+			</span>
+			<span class="mdl-list__item-secondary-content">
+				<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">add_box</i></a>
+			</span>
+		</li>
+		{{/ifEquals}}
+		{{/events}}
+		
+	</script>
+	<script id="events-saturday-template" type="text/x-handlebars-template">
+
+		{{#events}}
+		{{#ifEquals schedule.day "Saturday"}}
+		<li class="mdl-list__item mdl-list__item--two-line">
+			<span class="mdl-list__item-primary-content">
+				<i class="material-icons mdl-list__item-avatar">event</i>
+				<span>{{name}}</span>
+				<span class="mdl-list__item-sub-title">{{stage}}, {{schedule.start}}-{{schedule.end}}</span>
+			</span>
+			<span class="mdl-list__item-secondary-content">
+				<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">add_box</i></a>
+			</span>
+		</li>
+		{{/ifEquals}}
+		{{/events}}
+		
+	</script>
+	<script id="events-sunday-template" type="text/x-handlebars-template">
+
+		{{#events}}
+		{{#ifEquals schedule.day "Sunday"}}
+		<li class="mdl-list__item mdl-list__item--two-line">
+			<span class="mdl-list__item-primary-content">
+				<i class="material-icons mdl-list__item-avatar">event</i>
+				<span>{{name}}</span>
+				<span class="mdl-list__item-sub-title">{{stage}}, {{schedule.start}}-{{schedule.end}}</span>
+			</span>
+			<span class="mdl-list__item-secondary-content">
+				<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">add_box</i></a>
+			</span>
+		</li>
+		{{/ifEquals}}
+		{{/events}}
+		
 	</script>
 	<script id="announcement-template" type="text/x-handlebars-template">
 		{{#announcements}}
