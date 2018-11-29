@@ -49,6 +49,16 @@ $(function() {
 });
 
 $(function() {
+    var raw_template = $('#sponsors-template').html();
+    var template = Handlebars.compile(raw_template);
+    var placeHolder = $("#sponsors-list");
+    $.get("assets/data.json", function(datas, status, xhr) {
+        var html = template(datas);
+        placeHolder.append(html);
+    });
+});
+
+$(function() {
     var raw_template = $('#faq-template').html();
     var template = Handlebars.compile(raw_template);
     var placeHolder = $("#faq-list");
