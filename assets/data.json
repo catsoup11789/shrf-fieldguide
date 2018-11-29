@@ -60,5 +60,13 @@
 			"question": "Lost & Found",
 			"answer": "Visit the Festival's Lost & Found booth near the Fourth Street Bridge to scope out misplaced items. Lost children also are escorted here to be reunited with parents. Lost & Found is located south of Festival Headquarters"
 		}
+	],
+	
+	"sponsors": [
+		{
+			"id": 1,
+			"name": "Name of Sponsor",
+			"image": "assets/images/sponsors-1.png"
+		}
 	]
 }
