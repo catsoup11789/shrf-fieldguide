@@ -1,0 +1,166 @@
+{
+	"sponsors": [
+		{
+			"id": 1,
+			"name": "99KG",
+			"image": "assets/images/sponsors/KSKG.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 2,
+			"name": "Anesthesia Associates of Central Kansas",
+			"image": "assets/images/sponsors/aack.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 3,
+			"name": "Candlewood Suites",
+			"image": "assets/images/sponsors/CandlewoodSuites.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 4,
+			"name": "Capitol Federal",
+			"image": "assets/images/sponsors/CapFed.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 5,
+			"name": "City of Salina",
+			"image": "assets/images/sponsors/City-of-Salina.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 6,
+			"name": "Comcare",
+			"image": "assets/images/sponsors/ComcarePA.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 7,
+			"name": "Country Inn & Suites",
+			"image": "assets/images/sponsors/countryinn.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 8,
+			"name": "The Earl Bane Foundation",
+			"image": "assets/images/sponsors/earlbane.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 9,
+			"name": "Exide Technologies",
+			"image": "assets/images/sponsors/exideTechnologies.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 10,
+			"name": "FM104.9 / Y93.7",
+			"image": "assets/images/sponsors/FM104.9_Y93.7.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 11,
+			"name": "Great Plains",
+			"image": "assets/images/sponsors/GreatPlains.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 12,
+			"name": "Hampton Inn",
+			"image": "assets/images/sponsors/Hampton.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 13,
+			"name": "KSAL NewsRadio 1150",
+			"image": "assets/images/sponsors/KSALNewsRadio.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 14,
+			"name": "LaQuinta Inns & Suites",
+			"image": "assets/images/sponsors/LaQuinta.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 15,
+			"name": "Mahaska",
+			"image": "assets/images/sponsors/Mahaska.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 16,
+			"name": "Philips",
+			"image": "assets/images/sponsors/philips.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 17,
+			"name": "97.5 Power Hits",
+			"image": "assets/images/sponsors/PowerHits_97.5.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 18,
+			"name": "Precision Electrical Contractors",
+			"image": "assets/images/sponsors/Precision_Electric.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 19,
+			"name": "S.M. Hanson Music Inc.",
+			"image": "assets/images/sponsors/hanson.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 20,
+			"name": "Salina Iron & Metal Compay",
+			"image": "assets/images/sponsors/Salina-Iron-Metal.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 21,
+			"name": "Salina Journal",
+			"image": "assets/images/sponsors/SalinaJournal_2004.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 22,
+			"name": "Solomon Corporation",
+			"image": "assets/images/sponsors/SolomonCorp.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 23,
+			"name": "Super 8",
+			"image": "assets/images/sponsors/Super-8.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 24,
+			"name": "95.5 The Rock",
+			"image": "assets/images/sponsors/TheRock955.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 25,
+			"name": "Visit Salina",
+			"image": "assets/images/sponsors/visitSalina.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 26,
+			"name": "Wells Fargo Advisors",
+			"image": "assets/images/sponsors/Wells-fargo.jpg",
+			"level": "Premiere"
+		},
+		{
+			"id": 27,
+			"name": "Wilson & Company",
+			"image": "assets/images/sponsors/Wilson&Com.jpg",
+			"level": "Premiere"
+		}
+	]
+}
