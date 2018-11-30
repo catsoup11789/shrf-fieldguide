@@ -1,0 +1,54 @@
+{
+	"faq": [
+		{
+			"id": 1,
+			"question": "First Aid",
+			"answer": "First Aid and EMS services are available at the permanent restroom next to the tennis courts."
+		},
+		{
+			"id": 2,
+			"question": "Lost & Found",
+			"answer": "Visit the Festival's Lost & Found booth near the Fourth Street Bridge to scope out misplaced items. Lost children also are escorted here to be reunited with parents. Lost & Found is located south of Festival Headquarters"
+		},
+		{
+			"id": 3,
+			"question": "Baby Station",
+			"answer": "Need a quiet place to change your baby's diaper or to nurse? Visit the Festival's Baby Station, located near the Arty's Stage. Rocking chairs, fans, and other amenities are available to make sure our tiniest Festival-goers stay comfortable throughout the day. Available until 5pm each day."
+		},
+		{
+			"id": 4,
+			"question": "Information Booths",
+			"answer": "The best source for directions and other Festival-related questions. T-shirts are sold here. Two locations: near the Kenwood Bridge and west of Craft Demonstration."
+		},
+		{
+			"id": 5,
+			"question": "Shuttles",
+			"answer": "Free shuttles from the Tony's Pizza Events Center parking lot to Festival grounds are accessible during Festival hours."
+		},
+		{
+			"id": 6,
+			"question": "Parking",
+			"answer": "Parking lots are adjacent to the Tony's Pizza Events Center and in the general vicinity of the Festival. No unauthorized vehicles or pets are allowed in the Park. Free Shuttle service is accessible and available from the Tony's Pizza Events Center parking lot to Festival grounds."
+		},
+		{
+			"id": 7,
+			"question": "Telephones",
+			"answer": "Public pay telephones are not available in the Park. Please make prior arrangements to accommodate your communication needs. To keep your devices charged, use the Nex-Tech Wireless complimentary charging station open at 12:00 Noon each day."
+		},
+		{
+			"id": 8,
+			"question": "Ident-A-Kid",
+			"answer": "Calling all kids to stop by the Ident-A-Kid booth just west of Craft Demonstration to get your I.D. bracelet. It's the best way for us to find your mom or dad if you get separated. Have your folks bring their cell phone for easy access."
+		},
+		{
+			"id": 9,
+			"question": "SMILE!",
+			"answer": "The Smoky Hill River Festival is documented each year by designated professional photographers hired by Festival staff. Their images are sometimes used appropriately for marketing purposes in subsequent years. Your purchase of an admission button gives permission for the use of your image in this fashion without notification or compensation. The Festival accepts no liability for any personal image used in this way."
+		},
+		{
+			"id": 10,
+			"question": "Keep it Green",
+			"answer": "Look for receptacles to recycle plastic water bottles and metal or aluminum cans around the Festival, and to help reduce unnecessary landfill trash."
+		}
+	]
+}
