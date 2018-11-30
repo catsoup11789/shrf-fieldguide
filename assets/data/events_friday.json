@@ -1,0 +1,24 @@
+{
+	"events": [
+		{
+			"id": 1,
+			"name": "Herringbone",
+			"stage": "Eric Stein",
+			"description": "Brief description of musical act.",
+			"schedule": {
+				"start": "9:30am",
+				"end": "10:15am"
+			}
+		},
+		{
+			"id": 2,
+			"name": "More Herringbone",
+			"stage": "The Other Eric Stein",
+			"description": "Another brief description of musical act.",
+			"schedule": {
+				"start": "10:30am",
+				"end": "11:00am"
+			}
+		}
+	]
+}
