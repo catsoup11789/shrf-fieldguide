@@ -1,0 +1,19 @@
+{
+	"announcements": [
+		{
+			"id": 1,
+			"name": "Gift certificates available",
+			"description": "River Festival gift certificates make the perfect Christmas present for River Festival lovers of all ages! Available in $20 increments, certificates can be used at the Festival to purchase works from any of the art areas. Certificates can be purchased at the Salina Arts & Humanities office, 211 W. Iron Ave, M-F 8-12, 1-5pm."
+		},
+		{
+			"id": 2,
+			"name": "Art Patron",
+			"description":  "Do you purchase art at the Festival? Do you spend at least $100? If so, why not sign up for all the perks of being an Art Patron, including the PREMIERE party, VIP Tent access all weekend and more! Tickets are limited, so sign up early!"
+		},
+		{
+			"id": 3,
+			"name": "Festival Memories",
+			"description": "Relive fun Festival memories at facebook.com/SHRiverFestival and be sure to share your 2018 memories using #shrf2018."
+		}
+	]
+}
