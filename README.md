@@ -1,4 +1,2 @@
 # shrf-fieldguide
-Smoky Hill River Festival Field Guide
-
-It's a readme
+Undergrad project to learn JSON fun and progressive web app (PWA) functionality.
